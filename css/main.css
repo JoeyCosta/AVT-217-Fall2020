@@ -1,16 +1,16 @@
-body{
-  background-color: blue;
-  font-family: sans-serif;
-  font-size: 24px;
-  margin-top: 100px;
-  margin-left: 200px;
+
+main{
+  width: 75vw;
+  margin: 25px auto;
+  background-color: yellow;
+  display: flow-root;
 }
 
-h1{
-  letter-spacing: 1px;
-  font-size: 4rem;
+.col{
+  width: 50%;
+  background-color: red;
+  float: left;
 }
-
 .exercise{
   background-color: white;
   margin: 0px;
@@ -33,4 +33,20 @@ a:link, a:visited{
 
 a:link, a:hover{
   color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .col{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header{
+    width: 90vw;
+  }
+  main{
+    width: 90vw;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }
