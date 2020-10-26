@@ -4,6 +4,12 @@
 
 body{
   margin: 0;
+
+}
+
+main{
+  margin-left: 24px;
+  width: 900px;
 }
 
 .board{
@@ -28,6 +34,7 @@ body{
 
 .top{
   background-color: tomato;
+  float: left;
   width: 800px;
   height: 10px;
   margin: 12px;
@@ -57,17 +64,37 @@ body{
 .box{
   background-color: tomato;
   width: 600px;
-  height: 600px;
-  border-top: 50px;
+  height: 400px;
+  margin-right: 8px;
+  margin-top: 100px;
+  float: left;
+}
+
+.pic{
+  background-color: tomato;
+  width: 200px;
+  height: 250px;
+  margin-top: 100px;
+  float: left;
+}
+
+.bottom{
+  background-color: tomato;
+  width: 600px;
+  height: 100px;
+  margin-top: 12px;
+  float: left;
 }
 
 header{
+  float: left;
   width: 800px;
   height: 100px;
   background-color: tomato;
 }
 
 footer{
+  float: left;
   width: 800px;
   height: 100px;
   background-color: tomato;
