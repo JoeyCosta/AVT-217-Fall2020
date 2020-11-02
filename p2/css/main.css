@@ -20,3 +20,24 @@ body{
   border-color: rgb(214, 208, 208);
   border-width: medium;
 }
+
+.pic{
+  height: 200px;
+  width: 300px;
+  background-color: whitesmoke;
+  float: right;
+  margin: auto;
+}
+
+.item {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.text{
+  line-height: 25px;
+  font-size: 18px;
+  text-align: left;
+  float: left;
+}
