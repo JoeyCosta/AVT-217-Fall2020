@@ -9,6 +9,10 @@ img{
   max-height: 100%;
 }
 
+a{
+  color: whitesmoke;
+}
+
 .content{
   background-color: rgb(117, 15, 6);
   border-color: rgb(214, 208, 208);
